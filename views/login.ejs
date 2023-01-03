@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LOGIN SYSTEM</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/be3f167a2d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="text">Login Form</div>
+         <form action="/login" method="POST">
+          <% if(messages.error) { %>
+            <span class="message"><%= messages.error %></span>
+            <% } %>
+           <div class="field">
+             <span class="fa fa-user"></span>
+             <input type="text" name="email" placeholder="Email Id" required>
+          
+           </div>
+           <div class="field">
+             <span class="fa fa-lock"></span>
+             <input type="password" name="password" placeholder="Password">
+             
+           </div>
+           
+           <button> Log In </button>
+           <a href="/register">
+            Don't have account?
+        </a>
+          
+           </div>
+         </form>
+       </div>
+       
+       </body>
+       
+</body>
+</html>

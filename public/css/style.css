@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    background: url("https://i.pinimg.com/736x/ef/0b/31/ef0b31e36b3eeee0d213865e332e4f89.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    opacity: 0.7;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-size: cover;
+
+}
+
+
+
+.content {
+    /* width: 330px; */
+
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 100px;
+    box-shadow: -3px -3px 9px #302727a2,
+        3px 3px 7px rgba(33, 39, 44, 0.671);
+
+
+}
+
+
+.content .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    color: rgb(22, 21, 21);
+}
+
+.content .field {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+   
+}
+
+.field input {
+   
+    padding-left: 45px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    color: rgb(7, 7, 7);
+    border: 2px solid rgba(216, 10, 10, 0.438);
+    border-radius: 8px;
+    background: rgba(105, 105, 105, 0);
+    
+
+}
+.field input:hover{
+    border: 2px solid blue;
+    background-color: #fff;
+}
+
+
+.field input::placeholder {
+    color: rgb(68, 64, 64);
+}
+
+.field:nth-child(2) {
+    margin-top: 20px;
+}
+
+.field span {
+    position: absolute;
+    width: 50px;
+    line-height: 50px;
+    color: #b11313a6;
+}
+
+.message{
+    color: red;
+    text-align: left;
+    align-items: flex-start;
+}
+
+button {
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid rgba(216, 10, 10, 0.438);
+    border-radius: 8px;
+    background: rgb(189, 18, 18);
+    margin-top: 40px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+
+
+.icon-button {
+    margin-top: 15px;
+}
+
+.icon-button span {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: rgba(42, 122, 201, 0.795);
+    border-radius: 5px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(10px);
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/home.css">
+
+</head>
+
+<body>
+ 
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Welcome <%= email %>
+      </h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae officiis numquam nihil
+        deleniti quis consequatur excepturi perferendis dolorum facilis earum!</p>
+      <% if(email){ %>
+        <button><a href="/logout" class="card-link">Logout</a></button>
+        <% }else { %>
+          <button> <a href="/login" class="card-link">Login</a></button>
+          <button><a href="/register" class="card-link">Register</a></button>
+          <% } %>
+    </div>
+  </div>
+
+</body>
+
+</html>

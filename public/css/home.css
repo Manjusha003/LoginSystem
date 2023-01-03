@@ -1,0 +1,48 @@
+
+html {
+    background: url("https://thumbs.dreamstime.com/b/texture-water-transparent-white-background-154271570.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.card{
+    background-color:transparent;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0px 0px ;
+   
+    margin-top: 50px;
+
+}
+.card-title{
+  
+    font-size: 28px;
+}
+.card-text{
+    margin-top: -10px;
+    font-size: 20px;
+}
+.card-link{
+    text-decoration: none;
+}
+button{
+    padding: 8px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 4px ;
+    margin: 10px;
+}
+button:hover{
+    background-color: red;
+    
+}
+button a:hover{
+    color: #fff;
+}
